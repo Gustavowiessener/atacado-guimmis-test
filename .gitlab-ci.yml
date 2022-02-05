@@ -1,0 +1,12 @@
+
+stages: 
+   - test
+  
+
+test: 
+  image: cypress/base:10
+  stage: test
+  script:
+    - yarn install
+    - yarn run cypress run
+
