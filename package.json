@@ -1,0 +1,21 @@
+{
+  "name": "atacado_guimmis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cypress run" : "./node_modules/.bin/cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },  
+    "cypress-cucumber-preprocessor": {
+     "nonGlobalStepDefinitions": true
+  }
+
+}
