@@ -3,8 +3,11 @@
 
 <span> Para rodar os arquivos e o projeto em seu ambiente, instale as dependencias: </span>
 
-[x] - Cypress 9.4.1 </br>
-[x] - Cypress Cucumber Preprocessor 4.3.1
+<ul> <li>[X] Cypress 9.4.1 </li>
+<li>[x] Cypress Cucumber Preprocessor 4.3.1 </li>
+
+</ul>
+<hr>
 
 <br>
 
