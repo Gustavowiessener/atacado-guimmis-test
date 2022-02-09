@@ -13,3 +13,6 @@ Exemplos:
     | 888l  | Linha Premium | 7897473138162  | 11Kg   | 
     | 7843U | Linha Diamond | 7897473141599  | 12Kg   |
     | 7742  | Linha Gold    | 7897473136670  | 8Kg    |
+    | 162x  | Linha Premium | 7897473137257  | 7Kg    |
+    | 5040  | Linha Gold    | 7897473139817  | 6Kg    |
+    | 6045U | Linha Diamond | 7897473141568  | 9Kg    |
