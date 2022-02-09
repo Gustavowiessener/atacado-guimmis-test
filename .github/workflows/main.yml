@@ -11,6 +11,9 @@ jobs:
           with:
             start: yarn run
 
+name: Security Test
+on: [push]
+jobs: 
     security:
         runs-on: ubuntu-latest
         steps:
