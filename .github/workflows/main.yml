@@ -8,10 +8,15 @@ jobs:
           uses: actions/checkout@v2.4.0
         - name: Cypress.io
           uses: cypress-io/github-action@v2.9.7
-        - name: Snyk
-          uses: snyk/actions@0.3.0
-
           with:
             start: yarn run
 
-  
+    security:
+       runs-on: ubuntu-latest
+       steps:
+        - uses: actions/checkout@master
+        - name: Run Snyk to check for vulnerabilities
+          uses: snyk/actions/node@master
+       env:
+          SNYK_TOKEN: ${{ e936a40a-2766-4824-89bb-ece45b46b5a0 }}
+               
