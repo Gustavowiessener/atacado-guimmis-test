@@ -1,7 +1,7 @@
-name: Test and Security
+name: Test
 on: [push]
 jobs: 
-    cypress-run:
+    cypress-run-test:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
