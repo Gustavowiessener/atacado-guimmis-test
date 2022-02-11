@@ -1,4 +1,4 @@
-name: security
+name: Snyk Test
 
 on:
   push:
