@@ -10,7 +10,5 @@ jobs:
           uses: cypress-io/github-action@v2.9.7
           with:
             start: yarn run
-        - name: Snyk
-          uses: snyk/actions@0.3.0
-          with:
-            start: snyk monitor
+   
+                     
