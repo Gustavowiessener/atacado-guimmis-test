@@ -1,4 +1,3 @@
 {
-    "testFiles": "**/*.feature",
-    "videoCompression": false
+    "testFiles": "**/*.feature"
 }
