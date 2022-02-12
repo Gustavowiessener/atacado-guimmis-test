@@ -4,7 +4,7 @@ const el = require('../../elements/Produto/elements').ELEMENTS;
 class Produto {
 
 visitProduto() {
-      cy.visit("https://atacado.guimmis.com.br/apps/e-commerce/products")
+     cy.visit("https://atacado.guimmis.com.br/apps/e-commerce/products")
 	cy.get(el.pesquisa).as('pesquisa')
 }
 
