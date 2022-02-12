@@ -16,3 +16,4 @@ Exemplos:
     | 162x   | Linha Premium | 7897473137257  | 7Kg    |
     | 5040   | Linha Gold    | 7897473139817  | 6Kg    |
     | 9122ES | Linha Gold    | 7897473138322  | 4Kg    |
+    | 6544   | Linha Gold    | 7897473136649  | 7Kg    |
