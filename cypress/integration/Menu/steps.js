@@ -1,29 +1,24 @@
 
+import Menu from '../../support/pages/actions/Menu'
+
 Given(/^Que estou na tela principal$/, () => {
-	cy.visit("https://atacado.guimmis.com.br/apps/e-commerce/products");
+	Menu.acessarTelaInicial()
 });
 
 When(/^Acesso o menu na parte lateral$/, () => {
-	cy.get('.MuiIconButton-label-160').click();
-    cy.get('.MuiDrawer-paper-143 > .overflow-hidden')
-            .should('to.be.visible')
+    Menu.acessarToggleMenu()
 });
 
 
 When(/^acesso em diferentes "([^"]*)"$/, (telas) => {
-	cy.viewport(telas)
-    cy.get('.MuiDrawer-paper-143 > .overflow-hidden')
-    .should('to.be.visible')
-     
+	Menu.validaResponsiveTela(telas)    
     
 });
 
 
 Then(/^Devo receber como acesso no menu com dados de retorno como "([^"]*)" e "([^"]*)".$/, (catalogo,piso) => {
-     cy.get('.MuiList-root-258')
-        .should('contain', catalogo)
-            .should('contain', piso)
-    
+    Menu.validaInformacoesRetornoMenu(catalogo,piso)
+
 });
 
 
