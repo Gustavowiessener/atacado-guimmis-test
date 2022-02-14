@@ -1,7 +1,7 @@
 #language: pt
 Funcionalidade: Produto
 
-Esquema do Cenário: Acessar o campo de pesquisa e receber todas as informações referente ao produto <item>
+Esquema do Cenário: Como usuario desejo acessar o campo de produtos, e quando filtrar pelo <item> desejado, desejo ter acesso á todas informações, dentre elas: <linha> <sku> <peso>.
 Dado Que acesse o campo de pesquisa
 Quando Informar no campo referente ao item "<item>"
 Então Devo receber a informação como "<linha>" com numero do SKU "<sku>" e com peso "<peso>"
